@@ -3,6 +3,16 @@
    https://css-tricks.com/css-cascade-layers/ */
 
 @layer styleguide {
+    :root {
+        --h1-color: #ffffff;
+        --h1-textsize: 90px;
+        --h2-textcolor: #000000;
+        --h2-textsize: 32px;
+        --primary-color: #0751d8;
+        --secondory-color: #fffffff;
+        --podcast-primary-color: #FED200;
+        --footer-primary-color: #000000;
+    }
 
     /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
@@ -24,6 +34,7 @@
     .accentcolor-2 {
         background-color: ;
     }
+
 
 
 
