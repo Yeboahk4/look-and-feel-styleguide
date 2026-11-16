@@ -19,8 +19,8 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
-    .color-example {
-        background-color: #bada55;
+    .background-color {
+        background-color: #ffff;
     }
     .primary-color {
         background-color: var(--primary-color);
