@@ -8,9 +8,10 @@
         --h1-textsize: 90px;
         --h2-textcolor: #000000;
         --h2-textsize: 32px;
-        --primary-color: #0751d8;
-        --secondory-color: #fffffff;
+        --primary-color: #0053E0;
+        --secondary-color: #ffffff;
         --podcast-primary-color: #FED200;
+        --column-primary-color: #FB4711;
         --footer-primary-color: #000000;
     }
 
@@ -21,23 +22,19 @@
     .background-color {
         background-color: #ffff;
     }
-    .text-color {
-        background-color: black;
-
-    
+    .primary-color {
+        background-color: var(--primary-color);
     }
-
-    .accentcolor {
-        background-color: #0053E0;
+    .secondary-color {
+        border: solid 1px;
+        background-color: var(--secondary-color);
     }
-
-    .accentcolor-2 {
-        background-color: ;
+    .podcast-color {
+        background-color: var(--podcast-primary-color);
     }
-
-
-
-
+    .column-color {
+        background-color: var(--column-primary-color);
+    }
     /* Typografie */
 
 
