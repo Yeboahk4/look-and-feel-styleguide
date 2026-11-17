@@ -118,31 +118,38 @@
     p{
         font-family: var(--secondary-font);
         font-size: var(--font-size-small);
+        color: var(--h2-textcolor);
         }
 
     h1 {
         font-size: var(--font-size-largest);
         font-family: var(--primary-font)
         color: var(--h1-color);
+        color: var(--h1-textcolor);
     }
     h2 {
         font-size: var(--font-size-large);
         font-family: var(--secondary-font);
+        color: var(--h2-textcolor);
     }
     h3 {
         font-family: var(--primary-font);
+        color: var(--h2-textcolor);
     }
     h4 {
         font-size: var(--font-size-small);
         font-family: var(--secondary-font);
+        color: var(--h2-textcolor);
     }
     h5 {
         font-size: var(--font-size-header);
         font-family: var(--secondary-font);
+        color: var(--h2-textcolor);
     }
     h6 {
         font-size: var(--font-size-smallest);
         font-family: var(--secondary-font);
+        color: var(--h2-textcolor);
     }
     /* Formulier elementen */
 
