@@ -34,6 +34,7 @@
 
     body {
         background-color: var(--primary-color);
+
     }
     .background-color {
         background-color: #ffff;
@@ -68,8 +69,12 @@
     }
 
     h1 {
-        font-family: 
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
         color; var(--h1-color);
+    }
+
+    h2 h3 h4 h5 h6 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     /* Formulier elementen */
 
