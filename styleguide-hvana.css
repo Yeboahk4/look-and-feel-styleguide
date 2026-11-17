@@ -100,7 +100,6 @@
     }
 
     .article-text {
-        font-size: var(--font-size-small);
         width: var(--max-width-article-text);     
         margin: 0px 0px 30px;    
         text-align: center; 
@@ -128,8 +127,7 @@
 
     h1 {
         font-size: var(--font-size-largest);
-        font-family: var(--primary-font)
-        color: var(--h1-color);
+        font-family: var(--primary-font);
         color: var(--h1-textcolor);
     }
     h2 {
@@ -158,3 +156,4 @@
     }
     /* Formulier elementen */
 
+}
