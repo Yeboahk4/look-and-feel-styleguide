@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Playfair+Display:wght@900&display=swap');
 @layer styleguide {
     :root {
+<<<<<<< HEAD
         /*kleuren*/
         --h1-color: #ffffff;
         --h2-textcolor: #000000;
@@ -12,6 +13,44 @@
         --podcast-primary-color: #FED200;
         --column-primary-color: #FB4711;
         --footer-primary-color: #000000;
+=======
+        
+        /*--h1-color: #ffffff;
+        --h2-textcolor: #000000;*/
+        /*kleuren*/
+        /* BASE COLORS */
+        --primary-color-h-s: 218, 100%;
+        --secondary-color-h-s: 0, 0%;
+        --podcast-primary-color-h-s: 50, 100%;
+        --column-primary-color-h-s: 14, 97%;
+        --footer-primary-color-h-s: 0, 0%;
+
+        /* PRIMARY COLORS */
+        --primary-color-dark: hsl(var(--primary-color-h-s), 34%);
+        --primary-color-neutral: hsl(var(--primary-color-h-s), 44%);
+        --primary-color-light: hsl(var(--primary-color-h-s), 54%);
+
+        /* SECONDARY COLOR */
+        --secondary-color-dark: hsl(var(--secondary-color-h-s), 90%);
+        --secondary-color-neutral: hsl(var(--secondary-color-h-s), 100%);
+        /* Het heeft al een 100% lightness dus lichter dan dit kan niet */
+
+        /* PODCAST COLOR */
+        --podcast-color-dark: hsl(var(--podcast-primary-color-h-s), 40%);
+        --podcast-color-neutral: hsl(var(--podcast-primary-color-h-s), 50%);
+        --podcast-color-light: hsl(var(--podcast-primary-color-h-s), 60%);
+       
+        /* COLUMN COLOR */
+        --column-color-dark: hsl(var(--column-primary-color-h-s), 43%);
+        --column-color-neutral: hsl(var(--column-primary-color-h-s), 53%);
+        --column-color-light: hsl(var(--column-primary-color-h-s), 63%);
+        
+        /* FOOTER COLOR */
+        /* Het heeft al een vrij donkere complex dus donkerder dan dit kan niet */
+        --footer-color-neutral: hsl(var(--footer-primary-color-h-s), 7%);
+        --footer-color-light: hsl(var(--footer-primary-color-h-s), 17%);
+
+>>>>>>> e33075dc144ec0bee4bb100651afd3bc879366b2
        
         /*typografie*/
 
@@ -42,17 +81,21 @@
         background-color: #ffff;
     }
     .primary-color {
-        background-color: var(--primary-color);
+        background-color: var(--primary-color-neutral);
     }
     .secondary-color {
         border: solid 1px;
         background-color: var(--secondary-color);
     }
     .podcast-color {
-        background-color: var(--podcast-primary-color);
+        background-color: var(--podcast-color-neutral);
     }
     .column-color {
-        background-color: var(--column-primary-color);
+        background-color: var(--column-color-neutral);
+    }
+    .footer-color {
+        background-color: var(--footer-color-neutral);
+        color: var(--secondary-color-neutral);
     }
     /* Typografie */
     .header {
@@ -70,9 +113,15 @@
         font-style: italic;
     }
 
+<<<<<<< HEAD
     .title {
         font-family: var(--primary-font);
         font-size: var(--font-size-largest);
+=======
+    h1 {
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        color: var(--h1-color);
+>>>>>>> e33075dc144ec0bee4bb100651afd3bc879366b2
     }
     p{
         font-family: var(--secondary-font);
