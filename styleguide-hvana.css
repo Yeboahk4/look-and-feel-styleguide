@@ -5,8 +5,8 @@
 @layer styleguide {
     :root {
         /*kleuren*/
-        /*--h1-color: #ffffff;
-        --h2-textcolor: #000000;*/
+        --h1-color: #ffffff;
+        --h2-textcolor: #000000;
         --primary-color: #0053E0;
         --secondary-color: #ffffff;
         --podcast-primary-color: #FED200;
@@ -36,8 +36,8 @@
 
     body {
         background-color: var(--primary-color);
-
     }
+
     .background-color {
         background-color: #ffff;
     }
@@ -79,8 +79,6 @@
         font-size: var(--font-size-small);
         }
 
-    h2 h3 h4 h5 h6 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
     h1 {
         font-size: var(--font-size-largest);
         color: var(--h1);
