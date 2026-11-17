@@ -16,6 +16,7 @@
         --footer-primary-color: #000000;
        
         /*typografie*/
+        --max-width-article-text: 680px;
         --font-size-largest: 100px;
         --font-size-large: 56px;
         --font-size-medium: 40px;
