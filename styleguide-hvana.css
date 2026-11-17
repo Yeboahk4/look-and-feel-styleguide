@@ -68,7 +68,14 @@
         font-style: italic;
     }
 
+    .title {
+        font-family: var(--primary-font);
+        font-size: var(--font-size-largest);
     }
+    p{
+        font-family: var(--secondary-font);
+        font-size: var(--font-size-small);
+        }
 
     h2 h3 h4 h5 h6 {
         font-family: Georgia, 'Times New Roman', Times, serif;
