@@ -61,7 +61,6 @@
 
   p{
     font-size: var(--font-size-small);
-    block-size: 
   }
 
   h1 {
@@ -74,7 +73,7 @@
   }
 
   h3 {
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-medium);;
   }
 
   h4 {
@@ -93,15 +92,5 @@
     font-size: var(--font-size-largest);
   }
 
-  .article-text {
-    font-size: var(--font-size-small);
-    max-width: 800px;      
-    margin: 0px 0px 30px;    
-    text-align: center;     
-    
-  }
-
-  .quote {
-    font-style: italic;
-  }
+  
 }
