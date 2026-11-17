@@ -60,38 +60,9 @@
     }
   }
 
-  p{
-    font-size: var(--font-size-small);
-  }
 
-  h1 {
-    font-size: var(--font-size-largest);
-    color: var(--h1);
-  }
-
-  h2 {
-    font-size: var(--font-size-large);
-  }
-
-  h3 {
-    font-size: var(--font-size-medium);;
-  }
-
-  h4 {
-    font-size: var(--font-size-small)
-  }
-
-  h5 {
-    font-size: var(--font-size-header)
-  }
-
-  h6 {
-    font-size: var(--font-size-smallest)
-  }
   
-  .title {
-    font-size: var(--font-size-largest);
-  }
+  
 
   
 }
