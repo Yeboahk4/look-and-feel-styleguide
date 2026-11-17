@@ -61,10 +61,12 @@
 
   p{
     font-size: var(--font-size-small);
+    block-size: 
   }
 
   h1 {
     font-size: var(--font-size-largest);
+    color: var(--h1);
   }
 
   h2 {
@@ -93,6 +95,10 @@
 
   .article-text {
     font-size: var(--font-size-small);
+    max-width: 800px;      
+    margin: 0px 0px 30px;    
+    text-align: center;     
+    
   }
 
   .quote {

@@ -52,6 +52,12 @@
         font-size: var(--header-large);
     }
 
+    .article-text {
+        font-size: var(--font-size-small);
+        max-width: 800px;      
+        margin: 0px 0px 30px;    
+        text-align: center; 
+    }
     /* Formulier elementen */
 
 }
