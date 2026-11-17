@@ -31,6 +31,10 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
+
+    body {
+        background-color: var(--primary-color);
+    }
     .background-color {
         background-color: #ffff;
     }
