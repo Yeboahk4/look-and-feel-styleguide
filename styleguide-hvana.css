@@ -60,6 +60,7 @@
     .article-text {
         font-size: var(--font-size-small);
         max-width: 800px;      
+        width: var(--max-width-article-text);     
         margin: 0px 0px 30px;    
         text-align: center; 
     }
