@@ -16,10 +16,15 @@
         --footer-primary-color: #000000;
        
         /*typografie*/
-        --header-large: 30px;
+        --font-size-largest: 100px;
+        --font-size-large: 56px;
+        --font-size-medium: 40px;
+        --font-size-small: 20px;
+        --font-size-header: 18px;
+        --font-size-smallest: 16px;
 
         /*formulieren*/
-        --header-large: 30px;
+        
     }
 
     /* Schrijf hier de verschillende stijlen, die
