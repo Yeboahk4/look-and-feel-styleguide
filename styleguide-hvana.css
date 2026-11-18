@@ -1,57 +1,159 @@
 /* We gebruiken hier Cascade layers, wat mogelijke problemen met Specificiteit voorkomt
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Playfair+Display:wght@900&display=swap');
 @layer styleguide {
     :root {
         /*kleuren*/
         --h1-color: #ffffff;
-        --h1-textsize: 90px;
         --h2-textcolor: #000000;
-        --h2-textsize: 32px;
         --primary-color: #0053E0;
         --secondary-color: #ffffff;
         --podcast-primary-color: #FED200;
         --column-primary-color: #FB4711;
         --footer-primary-color: #000000;
+        
+        /*--h1-color: #ffffff;
+        --h2-textcolor: #000000;*/
+        /*kleuren*/
+        /* BASE COLORS */
+        --primary-color-h-s: 218, 100%;
+        --secondary-color-h-s: 0, 0%;
+        --podcast-primary-color-h-s: 50, 100%;
+        --column-primary-color-h-s: 14, 97%;
+        --footer-primary-color-h-s: 0, 0%;
+
+        /* PRIMARY COLORS */
+        --primary-color-dark: hsl(var(--primary-color-h-s), 34%);
+        --primary-color-neutral: hsl(var(--primary-color-h-s), 44%);
+        --primary-color-light: hsl(var(--primary-color-h-s), 54%);
+
+        /* SECONDARY COLOR */
+        --secondary-color-dark: hsl(var(--secondary-color-h-s), 90%);
+        --secondary-color-neutral: hsl(var(--secondary-color-h-s), 100%);
+        /* Het heeft al een 100% lightness dus lichter dan dit kan niet */
+
+        /* PODCAST COLOR */
+        --podcast-color-dark: hsl(var(--podcast-primary-color-h-s), 40%);
+        --podcast-color-neutral: hsl(var(--podcast-primary-color-h-s), 50%);
+        --podcast-color-light: hsl(var(--podcast-primary-color-h-s), 60%);
+       
+        /* COLUMN COLOR */
+        --column-color-dark: hsl(var(--column-primary-color-h-s), 43%);
+        --column-color-neutral: hsl(var(--column-primary-color-h-s), 53%);
+        --column-color-light: hsl(var(--column-primary-color-h-s), 63%);
+        
+        /* FOOTER COLOR */
+        /* Het heeft al een vrij donkere complex dus donkerder dan dit kan niet */
+        --footer-color-neutral: hsl(var(--footer-primary-color-h-s), 7%);
+        --footer-color-light: hsl(var(--footer-primary-color-h-s), 17%);
+
        
         /*typografie*/
+
+        --max-width-article-text: 680px;
         --font-size-largest: 100px;
         --font-size-large: 56px;
         --font-size-medium: 40px;
         --font-size-small: 20px;
         --font-size-header: 18px;
         --font-size-smallest: 16px;
+        --primary-font: Montserrat, 'Times New Roman';
+        --secondary-font: Georgia, 'Times New Roman', 
 
         /*formulieren*/
-        
+    
     }
 
     /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
+
+    body {
+        background-color: var(--primary-color);
+    }
+
     .background-color {
         background-color: #ffff;
     }
     .primary-color {
-        background-color: var(--primary-color);
+        background-color: var(--primary-color-neutral);
     }
     .secondary-color {
         border: solid 1px;
         background-color: var(--secondary-color);
     }
     .podcast-color {
-        background-color: var(--podcast-primary-color);
+        background-color: var(--podcast-color-neutral);
     }
     .column-color {
-        background-color: var(--column-primary-color);
+        background-color: var(--column-color-neutral);
+    }
+    .footer-color {
+        background-color: var(--footer-color-neutral);
+        color: var(--secondary-color-neutral);
     }
     /* Typografie */
     .header {
         font-size: var(--header-large);
     }
 
+    .article-text {
+        width: var(--max-width-article-text);     
+        margin: 0px 0px 30px;    
+        text-align: center; 
+    }
+
+    table  {
+        display: grid;
+        text-align: center;
+    }
+
+    .quote {
+        font-style: italic;
+    }
+
+    .title {
+        font-family: var(--primary-font);
+        font-size: var(--font-size-largest);
+    }
+
+    p{
+        font-family: var(--secondary-font);
+        font-size: var(--font-size-small);
+        color: var(--h2-textcolor);
+        }
+
+    h1 {
+        font-size: var(--font-size-largest);
+        font-family: var(--primary-font);
+        color: var(--h1-textcolor);
+    }
+    h2 {
+        font-size: var(--font-size-large);
+        font-family: var(--secondary-font);
+        color: var(--h2-textcolor);
+    }
+    h3 {
+        font-family: var(--primary-font);
+        color: var(--h2-textcolor);
+    }
+    h4 {
+        font-size: var(--font-size-small);
+        font-family: var(--secondary-font);
+        color: var(--h2-textcolor);
+    }
+    h5 {
+        font-size: var(--font-size-header);
+        font-family: var(--secondary-font);
+        color: var(--h2-textcolor);
+    }
+    h6 {
+        font-size: var(--font-size-smallest);
+        font-family: var(--secondary-font);
+        color: var(--h2-textcolor);
+    }
     /* Formulier elementen */
 
 }
