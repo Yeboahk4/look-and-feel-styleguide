@@ -15,7 +15,7 @@
   body {
     max-width: 40em;
     margin: auto;
-    background: #fff;
+    background-color: #fff;
   }
 
   nav:not([class]),
