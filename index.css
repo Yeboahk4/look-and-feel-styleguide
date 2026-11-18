@@ -13,10 +13,30 @@
   }
 
   body {
-    max-width: 40em;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: auto 1rem; 
     background-color: #fff;
+
+    @media screen  {
+      
+    }
   }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    display: flex;
+    align-items: flex-start;
+  }
+
+
 
   nav:not([class]),
   h1:not([class]),
@@ -60,6 +80,11 @@
     }
   }
 
+  #typografie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   
   
