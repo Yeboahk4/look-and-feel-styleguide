@@ -62,6 +62,8 @@
         --secondary-font: Georgia, 'Times New Roman', 
 
         /*formulieren*/
+
+
     
     }
 
@@ -155,5 +157,45 @@
         color: var(--h2-textcolor);
     }
     /* Formulier elementen */
+
+    .form-input{ 
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px;
+    }
+    .form-row {
+        display: flex;
+        gap: 1rem;
+    }
+    .form-row p {
+        flex: 1;
+}
+    
+
+    .submit-button {
+
+       background-color: rgb(254 210 0);
+       color: white;
+       border: none;
+       padding: 15px 25px;
+       font-weight: bold;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgb(255 94 49);
+  }
+}
+
+
+    
+
+
+
+
+
 
 }
