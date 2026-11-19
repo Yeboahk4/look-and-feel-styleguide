@@ -12,6 +12,9 @@
         --podcast-primary-color: #FED200;
         --column-primary-color: #FB4711;
         --footer-primary-color: #000000;
+        --button-primary-color: #FED200;
+        --button-hover-color: #FF5E31;
+        
         
         /*--h1-color: #ffffff;
         --h2-textcolor: #000000;*/
@@ -177,7 +180,7 @@
 
     .submit-button {
 
-       background-color: rgb(254 210 0);
+       background-color: var(--button-primary-color);
        color: white;
        border: none;
        padding: 15px 25px;
@@ -186,7 +189,7 @@
        transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: rgb(255 94 49);
+    background-color: var(--button-hover-color);
   }
 }
 
