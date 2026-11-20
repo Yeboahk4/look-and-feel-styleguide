@@ -196,7 +196,15 @@
   }
 }
 
+.privacy_link {
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+.privacy_link:hover{ 
+    color: red;
+    text-decoration: underline;
+}
 
 .search {
     color: black;
