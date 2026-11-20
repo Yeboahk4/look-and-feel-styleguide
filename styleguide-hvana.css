@@ -197,8 +197,9 @@
 }
 
 .privacy_link {
-    cursor: pointer;
-    transition: 0.3s;
+    color: black;
+    text-decoration: underline;
+
 }
 
 .privacy_link:hover{ 
