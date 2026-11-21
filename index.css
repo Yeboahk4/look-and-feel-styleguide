@@ -76,8 +76,32 @@
       place-items: center;
       border-radius: 50%;
       aspect-ratio: 1;
-      background: #ccc;
+      
     }
+
+    .primary-color {
+      background-color: var(--primary-color);
+    }
+
+    .secondary-color {
+      background-color: var(--button-secondary-color);
+    }
+
+    .podcast-primary-color {
+      background-color: var(--button-podcast-color);
+    }
+
+    .column-primary-color {
+      background: var(--button-column-color);
+    }
+
+    .footer-primary-color {
+      background-color: var(--button-footer-color);
+    }
+
+
+
+
   }
 
   #typografie {
