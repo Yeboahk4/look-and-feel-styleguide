@@ -55,7 +55,7 @@
         /*typografie*/
 
         --max-width-article-text: 680px;
-        --font-size-largest: 100px;
+        --font-size-largest: 75px;
         --font-size-large: 56px;
         --font-size-medium: 40px;
         --font-size-small: 20px;
@@ -100,8 +100,11 @@
         color: var(--secondary-color-neutral);
     }
     /* Typografie */
+    
     .header {
-        font-size: var(--header-large);
+        font-size: var(--font-size-largest);
+        color: black;
+        top: 0;
     }
 
     .article-text {
