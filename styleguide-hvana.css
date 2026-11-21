@@ -214,7 +214,7 @@
 .search {
     color: black;
     font-family: var(--primary-font);
-    font: var(--font-size-smallest);
+    font-size: var(--font-size-smallest);
     font-weight: bold;
     display: flex;
     align-items:center;
