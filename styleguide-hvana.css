@@ -8,10 +8,10 @@
   font-style: normal;
   font-display: swap;
 }
+
 @layer styleguide {
     :root {
-        /*kleuren*/
-       
+        /* Kleuren */
         --primary-color: #0053E0;
         --secondary-color: #ffffff;
         --podcast-primary-color: #FED200;
@@ -21,7 +21,6 @@
         --button-hover-color: #FF5E31;
         --h2-textcolor: var(--footer-primary-color); 
         --h1-textcolor: var(--secondary-color);
-        
         
         /* BASE COLORS */
         --primary-color-h-s: 218, 100%;
@@ -55,9 +54,7 @@
         --footer-color-neutral: hsl(var(--footer-primary-color-h-s), 7%);
         --footer-color-light: hsl(var(--footer-primary-color-h-s), 17%);
 
-       
-        /*typografie*/
-
+        /* Typografie */
         --max-width-article-text: 680px;
         --font-size-largest: 4.6875rem;
         --font-size-large: 3.5rem;
@@ -68,10 +65,7 @@
         --primary-font: Montserrat, 'Times New Roman';
         --secondary-font: Georgia, 'Times New Roman'; 
 
-        /*formulieren*/
-
-
-    
+        /* Formulieren */
     }
 
     /* Schrijf hier de verschillende stijlen, die
@@ -86,23 +80,29 @@
     .background-color {
         background-color: #ffff;
     }
+
     .primary-color {
         background-color: var(--primary-color-neutral);
     }
+
     .secondary-color {
         border: solid 1px;
         background-color: var(--secondary-color);
     }
+
     .podcast-color {
         background-color: var(--podcast-color-neutral);
     }
+
     .column-color {
         background-color: var(--column-color-neutral);
     }
+
     .footer-color {
         background-color: var(--footer-color-neutral);
         color: var(--secondary-color-neutral);
     }
+
     /* Typografie */
     
     .header {
@@ -148,6 +148,7 @@
         font-family: var(--secondary-font);
         color: var(--h2-textcolor);
     }
+
     h3 {
         font-family: var(--primary-font);
         color: var(--h2-textcolor);
@@ -169,6 +170,7 @@
         display: flex;
         gap: 1rem;
     }
+
     .form-row p {
         flex: 1;
     }
@@ -225,10 +227,4 @@
         display: flex;
         align-items: center;
     }
-
-
-
-
-
-
 }
