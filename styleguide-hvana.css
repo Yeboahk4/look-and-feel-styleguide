@@ -55,12 +55,12 @@
         /*typografie*/
 
         --max-width-article-text: 680px;
-        --font-size-largest: 75px;
-        --font-size-large: 56px;
-        --font-size-medium: 40px;
-        --font-size-small: 20px;
-        --font-size-header: 18px;
-        --font-size-smallest: 16px;
+        --font-size-largest: 4.6875rem;
+        --font-size-large: 3.5rem;
+        --font-size-medium: 2.5rem;
+        --font-size-small: 1.25rem;
+        --font-size-header: 1.125rem;
+        --font-size-smallest: 1rem;
         --primary-font: Montserrat, 'Times New Roman';
         --secondary-font: Georgia, 'Times New Roman'; 
 
@@ -109,7 +109,7 @@
 
     .article-text {
         width: var(--max-width-article-text);     
-        margin: 0px 0px 30px;    
+        margin: 0 0 1.875rem;    
         text-align: center; 
     }
 
@@ -157,7 +157,7 @@
         font-weight: bold;
         width: 100%;
         box-sizing: border-box; 
-        padding: 12px;
+        padding: 0.75rem;
         border: 1px solid #e0e0e0;
 
         
@@ -176,7 +176,7 @@
        background-color: var(--button-primary-color);
        color: white;
        border: none;
-       padding: 15px 25px;
+       padding: 0.9375rem 1.5625rem;
        font-weight: bold;
        cursor: pointer;
        transition: background-color 0.3s ease;
@@ -205,10 +205,10 @@
     font-weight: bold;
     display: flex;
     align-items:center;
-    width: 200px;
+    width: 12.5rem;
     border: 1px solid #ccc;
-    border-radius: 15px;
-    padding: 0 10px;
+    border-radius: 0.9375rem;
+    padding: 0 0.625rem;
 
 
 }
@@ -218,7 +218,7 @@
     flex: 1;
     border: none;
     outline: none;
-    padding: 12px;
+    padding: 0.75rem;
 }
 
 .search_button {
