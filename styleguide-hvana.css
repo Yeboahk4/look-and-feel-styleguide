@@ -55,14 +55,14 @@
         /*typografie*/
 
         --max-width-article-text: 680px;
-        --font-size-largest: 100px;
+        --font-size-largest: 75px;
         --font-size-large: 56px;
         --font-size-medium: 40px;
         --font-size-small: 20px;
         --font-size-header: 18px;
         --font-size-smallest: 16px;
         --primary-font: Montserrat, 'Times New Roman';
-        --secondary-font: Georgia, 'Times New Roman', 
+        --secondary-font: Georgia, 'Times New Roman'; 
 
         /*formulieren*/
 
@@ -100,8 +100,11 @@
         color: var(--secondary-color-neutral);
     }
     /* Typografie */
+    
     .header {
-        font-size: var(--header-large);
+        font-size: var(--font-size-largest);
+        color: black;
+        top: 0;
     }
 
     .article-text {
@@ -135,7 +138,7 @@
         font-family: var(--primary-font);
         color: var(--h1-textcolor);
     }
-    h2 {
+    h2 h4 h5 h6 {
         font-size: var(--font-size-large);
         font-family: var(--secondary-font);
         color: var(--h2-textcolor);
@@ -144,21 +147,8 @@
         font-family: var(--primary-font);
         color: var(--h2-textcolor);
     }
-    h4 {
-        font-size: var(--font-size-small);
-        font-family: var(--secondary-font);
-        color: var(--h2-textcolor);
-    }
-    h5 {
-        font-size: var(--font-size-header);
-        font-family: var(--secondary-font);
-        color: var(--h2-textcolor);
-    }
-    h6 {
-        font-size: var(--font-size-smallest);
-        font-family: var(--secondary-font);
-        color: var(--h2-textcolor);
-    }
+    
+    
     /* Formulier elementen */
 
     .form-input{ 
@@ -196,6 +186,7 @@
   }
 }
 
+ /* Header-styling */
 .privacy_link {
     color: black;
     text-decoration: underline;
@@ -210,7 +201,7 @@
 .search {
     color: black;
     font-family: var(--primary-font);
-    font: var(--font-size-smallest);
+    font-size: var(--font-size-smallest);
     font-weight: bold;
     display: flex;
     align-items:center;
@@ -238,7 +229,6 @@
     display: flex;
     align-items: center;
 }
-
 
 
 
