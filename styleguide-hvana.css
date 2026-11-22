@@ -145,7 +145,7 @@
         color: var(--h1-textcolor);
         background-color: var(--primary-color);
     }
-    h2 h4 h5 h6 {
+    h2, h4, h5, h6 {
         font-size: var(--font-size-large);
         font-family: var(--secondary-font);
         color: var(--h2-textcolor);
