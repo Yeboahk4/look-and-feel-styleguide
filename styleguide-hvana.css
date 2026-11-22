@@ -72,6 +72,8 @@
 
         /*formulieren*/
 
+        /* SPACING ELEMENTS */
+
 
     
     }
@@ -238,7 +240,53 @@
 }
 
 
+/* GRID / SPACING ELEMENTEN */
 
+#spacing {
+    display: grid;
+    grid-gap: 2em;
+}
+
+.grid_box1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    place-items: center;
+    height: 200px;
+    width: auto;
+    background-color: var(--primary-color-light);
+}
+.grid_item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-medium);
+    color: var(--h1-textcolor);
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    height: 150px;
+    width: 90%;
+    background-color: var(--primary-color);
+}
+.grid_box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    place-items: center;
+    height: 200px;
+    width: auto;
+    background-color: var(--primary-color-light);
+}
+.grid_box3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    place-items: center;
+    height: 200px;
+    width: auto;
+    background-color: var(--primary-color-light);
+    margin-bottom: 4em;
+}
 
 
 
