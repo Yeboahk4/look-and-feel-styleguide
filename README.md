@@ -5,7 +5,7 @@ Voor de website van de HvanA hebben Rayhana, Loïs en Kennie een styleguide opge
 
 De styleguide bevat verschillende ontwerpcomponenten die als basis dienen voor de ontwikkeling van de website.
 
-Inhoud van de Styleguide
+## Inhoud van de Styleguide
 
 De volgende onderdelen zijn opgenomen:
 
